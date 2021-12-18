@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TareaTercerParcial.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#1CABFF" Padding="24" CornerRadius="0">
+            <Label Text="Tarea Movil II" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <StackLayout Margin="-20,10,0,0" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+            <Button x:Name="btnEmpleados" Text="Registrar" Clicked="btnEmpleados_Clicked" WidthRequest="120" HeightRequest="50" CornerRadius="30" FontAttributes="Bold" TextColor="White" BackgroundColor="#1CABFF"  />
+            <Button x:Name="btnListaEmpleados" Text="Ver lista" Clicked="btnListaEmpleados_Clicked" WidthRequest="120" HeightRequest="60" CornerRadius="30" FontAttributes="Bold" TextColor="White" BackgroundColor="#1CABFF"/>
+        </StackLayout>
+
+    </StackLayout>
+
+
+</ContentPage>
